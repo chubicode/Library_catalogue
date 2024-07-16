@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Library</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+  <div class="library-container">
+
+    <h1>LIBRARY CONTAINER </h1>
+
+    <div id="bookbody">
+      <!-- Books will be added here -->
+      
+      </div>
+      
+      <button id="newbook-btn">NEW BOOK </button>
+      
+      <div class="book-form">
+      
+        <form id="book-form">
+          <fieldset>
+            <legend>Book Catalogue</legend>
+            <label for="title">Title of Book: </label>
+            <input type="text" id="title"name="Title of Book" placeholder="type title here ">
+           
+            <label for="author">Author of Book: </label>
+            <input type="text" id="author"name="author of Book" placeholder="type author here ">
+          </fieldset>
+        
+          <fieldset>
+              <label for="pages">Number Of Pages: </label>
+              <input type="number" id="pages" name="Number Of Pages">
+          </fieldset>
+        
+          <fieldset>
+            <legend>Read Status</legend>
+            <label for="status">yes</label>
+            <input type="radio" id="read" name="Read Status" value="yes">
+            <label for="status">No</label>
+            <input type="radio" id="read" name="Read Status" value="no">
+          </fieldset>
+        
+          <button type="submit" id="submit-btn">Submit</button>
+          
+        </form>
+      
+      </div>
+
+  </div>
+
+
+
+  
+
+ 
+  
+
+<script src="index.js"></script>
+</body>
+</html>

@@ -31,3 +31,11 @@ body{
 .book-form{
   display: none;
 }
+
+#newbook-btn{
+padding: 10px;
+border-radius: 5px;
+background-color: #c397cf;
+border: none;
+cursor: pointer;
+}

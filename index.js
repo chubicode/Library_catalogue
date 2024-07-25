@@ -85,7 +85,7 @@ bookContainer.innerHTML+=
 
 //add event listeners to remove buttons
 //This line finds all the buttons with the class remove-book on the page and stores them in a variable called removeButtons.
-const removeButtons = document.querySelectorAll('.remove-book')
+const removeButtons = document.querySelectorAll('.remove-book');
 //Again, we use the forEach method, but this time on the removeButtons NodeList (a list of all those buttons).
 //For each button in this list, we add an event listener.
 
